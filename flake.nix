@@ -27,7 +27,7 @@
       #
       # If you miss a theme, consider opening a pull request :)
       packages = {
-        builder = jsonresume-nix.packages.${system}.resumed-fullmoon;
+        builder = jsonresume-nix.packages.${system}.resumed-elegant;
         inherit (jsonresume-nix.packages.${system}) fmt-as-json;
 
         # Build production build
@@ -39,7 +39,7 @@
           HOME=$(mktemp -d) ${self.packages.${system}.builder}
           mkdir $out
           cp -v resume.html $out/index.html
-          # Copy other resources such as images here...
+          cp -rv photos $out/photos
         '';
       };
 
