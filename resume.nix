@@ -6,6 +6,8 @@
     pronouns = "He / Him";
     label = "DevSecOps IT SysAdmin CI/CD Cloud Platform Network Engineer Wizard";
     email = "ole.claussen@wabenet.com";
+    image = "https://resume.wabenet.com/photos/profile_enfore.png";
+    picture = "https://resume.wabenet.com/photos/profile_enfore.png";
     url = "https://resume.wabenet.com/ole.claussen"; 
     summary = ''
       I'm an infrastructure engineer that's happy to tackle any task or challenge thrown at me with a cheerful attitude.
@@ -56,8 +58,8 @@
       endDate = "2020-05-31";
       summary = "When the CI/CD project was merged into the company's cloud operation team, this broadened my horizon on cloud infrastucture a lot. Now we managed the full cloud infrastructure stack, and I rediscovered previous fields of network and system administration, observability and emergency response handling from a new perspective. This was followed up by a deep-dive into the world of Kubernetes.";
       highlights = [
-        "Migration of existing cloud platform from a custom container ochestration framework to Kubernetes"
-        "Maintenenance of backend cloud infrastructure based on AWS, Kubernetes"
+        "Migration of existing cloud platform from a custom container orchestration framework to Kubernetes"
+        "Maintenance of backend cloud infrastructure based on AWS, Kubernetes"
       ];
     }
     {
@@ -89,7 +91,7 @@
       url = "https://goodgamestudios.com/";
       position = "Java Developer";
       startDate = "2014-04-01";
-      endDate = "2014-07-31";
+      endDate = "2016-07-31";
       summary = "Fresh out of university, I started as a Java programmer, maintaining backend software, core libraries and internal tooling. Here, I learned software development processes and collaboration. My focus inside the team was the maintenance of the CI/CD tooling.";
       highlights = [
         "Creation of a custom Java based monitoring stack that integrated Grafana, Graphite and Apache Cassandra"
